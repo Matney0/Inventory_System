@@ -15,6 +15,7 @@ namespace Inventory_System
             LoadStock();
             LoadLocations();
         }
+        //
 
         private void InitializeComponent()
         {
