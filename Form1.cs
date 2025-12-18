@@ -14,7 +14,7 @@ namespace Inventory_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+
             string username = textBox1.Text;
             string password = textBox2.Text;
             string connectionstring;
@@ -91,6 +91,11 @@ namespace Inventory_System
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             textBox2.UseSystemPasswordChar = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            System.Environment.Exit(0);
         }
     }
 }

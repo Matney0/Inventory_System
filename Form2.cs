@@ -15,7 +15,7 @@ namespace Inventory_System
             LoadStock();
             LoadLocations();
         }
-        //
+        //hhhjhhjhghj
 
         private void InitializeComponent()
         {
@@ -80,6 +80,9 @@ namespace Inventory_System
             textBox14 = new TextBox();
             label34 = new Label();
             label35 = new Label();
+            label36 = new Label();
+            textBox15 = new TextBox();
+            button8 = new Button();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
             SuspendLayout();
@@ -87,7 +90,7 @@ namespace Inventory_System
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(800, 286);
+            label1.Location = new Point(842, 286);
             label1.Name = "label1";
             label1.Size = new Size(127, 15);
             label1.TabIndex = 0;
@@ -114,7 +117,7 @@ namespace Inventory_System
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(361, 275);
+            label3.Location = new Point(375, 279);
             label3.Name = "label3";
             label3.Size = new Size(87, 15);
             label3.TabIndex = 4;
@@ -122,7 +125,7 @@ namespace Inventory_System
             // 
             // listView2
             // 
-            listView2.Location = new Point(298, 293);
+            listView2.Location = new Point(312, 297);
             listView2.Name = "listView2";
             listView2.Size = new Size(207, 127);
             listView2.TabIndex = 5;
@@ -131,7 +134,7 @@ namespace Inventory_System
             // 
             // numericUpDown1
             // 
-            numericUpDown1.Location = new Point(423, 509);
+            numericUpDown1.Location = new Point(320, 515);
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(92, 23);
             numericUpDown1.TabIndex = 6;
@@ -139,7 +142,7 @@ namespace Inventory_System
             // 
             // numericUpDown2
             // 
-            numericUpDown2.Location = new Point(423, 541);
+            numericUpDown2.Location = new Point(320, 547);
             numericUpDown2.Name = "numericUpDown2";
             numericUpDown2.Size = new Size(92, 23);
             numericUpDown2.TabIndex = 7;
@@ -148,7 +151,7 @@ namespace Inventory_System
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(341, 511);
+            label4.Location = new Point(238, 517);
             label4.Name = "label4";
             label4.Size = new Size(76, 15);
             label4.TabIndex = 8;
@@ -157,7 +160,7 @@ namespace Inventory_System
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(314, 541);
+            label5.Location = new Point(211, 547);
             label5.Name = "label5";
             label5.Size = new Size(103, 15);
             label5.TabIndex = 9;
@@ -165,7 +168,7 @@ namespace Inventory_System
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(298, 472);
+            textBox1.Location = new Point(312, 476);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 10;
@@ -174,7 +177,7 @@ namespace Inventory_System
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(298, 454);
+            label6.Location = new Point(312, 458);
             label6.Name = "label6";
             label6.Size = new Size(93, 15);
             label6.TabIndex = 11;
@@ -182,7 +185,7 @@ namespace Inventory_System
             // 
             // button1
             // 
-            button1.Location = new Point(440, 471);
+            button1.Location = new Point(431, 524);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 12;
@@ -276,7 +279,7 @@ namespace Inventory_System
             // 
             // listView3
             // 
-            listView3.Location = new Point(779, 304);
+            listView3.Location = new Point(821, 304);
             listView3.Name = "listView3";
             listView3.Size = new Size(245, 127);
             listView3.TabIndex = 24;
@@ -285,21 +288,21 @@ namespace Inventory_System
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(798, 483);
+            textBox6.Location = new Point(840, 483);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(100, 23);
             textBox6.TabIndex = 25;
             // 
             // textBox7
             // 
-            textBox7.Location = new Point(924, 483);
+            textBox7.Location = new Point(966, 483);
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(100, 23);
             textBox7.TabIndex = 26;
             // 
             // textBox8
             // 
-            textBox8.Location = new Point(798, 524);
+            textBox8.Location = new Point(840, 524);
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(100, 23);
             textBox8.TabIndex = 27;
@@ -307,7 +310,7 @@ namespace Inventory_System
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(849, 434);
+            label13.Location = new Point(891, 434);
             label13.Name = "label13";
             label13.Size = new Size(108, 15);
             label13.TabIndex = 28;
@@ -316,7 +319,7 @@ namespace Inventory_System
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(794, 465);
+            label14.Location = new Point(836, 465);
             label14.Name = "label14";
             label14.Size = new Size(42, 15);
             label14.TabIndex = 29;
@@ -325,7 +328,7 @@ namespace Inventory_System
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(924, 463);
+            label15.Location = new Point(966, 463);
             label15.Name = "label15";
             label15.Size = new Size(52, 15);
             label15.TabIndex = 30;
@@ -334,7 +337,7 @@ namespace Inventory_System
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(794, 506);
+            label16.Location = new Point(836, 506);
             label16.Name = "label16";
             label16.Size = new Size(34, 15);
             label16.TabIndex = 31;
@@ -342,7 +345,7 @@ namespace Inventory_System
             // 
             // button3
             // 
-            button3.Location = new Point(924, 524);
+            button3.Location = new Point(966, 524);
             button3.Name = "button3";
             button3.Size = new Size(75, 23);
             button3.TabIndex = 32;
@@ -353,7 +356,7 @@ namespace Inventory_System
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(554, 304);
+            label7.Location = new Point(587, 297);
             label7.Name = "label7";
             label7.Size = new Size(155, 15);
             label7.TabIndex = 33;
@@ -361,14 +364,14 @@ namespace Inventory_System
             // 
             // textBox9
             // 
-            textBox9.Location = new Point(524, 362);
+            textBox9.Location = new Point(557, 355);
             textBox9.Name = "textBox9";
             textBox9.Size = new Size(100, 23);
             textBox9.TabIndex = 34;
             // 
             // textBox10
             // 
-            textBox10.Location = new Point(659, 362);
+            textBox10.Location = new Point(692, 355);
             textBox10.Name = "textBox10";
             textBox10.Size = new Size(100, 23);
             textBox10.TabIndex = 35;
@@ -376,7 +379,7 @@ namespace Inventory_System
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(683, 342);
+            label17.Location = new Point(716, 335);
             label17.Name = "label17";
             label17.Size = new Size(63, 15);
             label17.TabIndex = 36;
@@ -385,7 +388,7 @@ namespace Inventory_System
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(543, 341);
+            label18.Location = new Point(576, 334);
             label18.Name = "label18";
             label18.Size = new Size(67, 15);
             label18.TabIndex = 37;
@@ -393,7 +396,7 @@ namespace Inventory_System
             // 
             // button4
             // 
-            button4.Location = new Point(602, 397);
+            button4.Location = new Point(635, 390);
             button4.Name = "button4";
             button4.Size = new Size(75, 23);
             button4.TabIndex = 38;
@@ -404,7 +407,7 @@ namespace Inventory_System
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(372, 424);
+            label19.Location = new Point(386, 428);
             label19.Name = "label19";
             label19.Size = new Size(79, 15);
             label19.TabIndex = 39;
@@ -413,7 +416,7 @@ namespace Inventory_System
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(554, 428);
+            label20.Location = new Point(587, 421);
             label20.Name = "label20";
             label20.Size = new Size(198, 15);
             label20.TabIndex = 41;
@@ -422,7 +425,7 @@ namespace Inventory_System
             // label21
             // 
             label21.AutoSize = true;
-            label21.Location = new Point(524, 443);
+            label21.Location = new Point(557, 436);
             label21.Name = "label21";
             label21.Size = new Size(253, 15);
             label21.TabIndex = 42;
@@ -440,16 +443,16 @@ namespace Inventory_System
             // label23
             // 
             label23.AutoSize = true;
-            label23.Location = new Point(539, 528);
+            label23.Location = new Point(516, 528);
             label23.Name = "label23";
-            label23.Size = new Size(211, 15);
+            label23.Size = new Size(294, 15);
             label23.TabIndex = 44;
-            label23.Text = "first enter a ProductID, then from there";
+            label23.Text = "first enter a ProductID and LocationID, then from there";
             // 
             // label24
             // 
             label24.AutoSize = true;
-            label24.Location = new Point(525, 543);
+            label24.Location = new Point(550, 543);
             label24.Name = "label24";
             label24.Size = new Size(235, 15);
             label24.TabIndex = 45;
@@ -614,9 +617,39 @@ namespace Inventory_System
             label35.TabIndex = 63;
             label35.Text = "if present in \"Stock On Hand\"";
             // 
+            // label36
+            // 
+            label36.AutoSize = true;
+            label36.Location = new Point(419, 458);
+            label36.Name = "label36";
+            label36.Size = new Size(97, 15);
+            label36.TabIndex = 65;
+            label36.Text = "Enter LocationID:";
+            label36.Click += label36_Click;
+            // 
+            // textBox15
+            // 
+            textBox15.Location = new Point(419, 476);
+            textBox15.Name = "textBox15";
+            textBox15.Size = new Size(100, 23);
+            textBox15.TabIndex = 64;
+            // 
+            // button8
+            // 
+            button8.Location = new Point(12, 547);
+            button8.Name = "button8";
+            button8.Size = new Size(150, 23);
+            button8.TabIndex = 66;
+            button8.Text = "Click Here to Logout!";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
             // Form2
             // 
-            ClientSize = new Size(1036, 574);
+            ClientSize = new Size(1078, 586);
+            Controls.Add(button8);
+            Controls.Add(label36);
+            Controls.Add(textBox15);
             Controls.Add(label35);
             Controls.Add(label34);
             Controls.Add(label33);
@@ -747,6 +780,9 @@ namespace Inventory_System
         private TextBox textBox14;
         private Label label34;
         private Label label35;
+        private Label label36;
+        private TextBox textBox15;
+        private Button button8;
         private Label label2;
 
         private void LoadProducts()
@@ -922,9 +958,15 @@ namespace Inventory_System
         private void button1_Click(object sender, EventArgs e)
         {
             int productId;
+            int locationId;
             if (!int.TryParse(textBox1.Text, out productId))
             {
                 MessageBox.Show("Please enter a valid ProductID.");
+                return;
+            }
+            if (!int.TryParse(textBox15.Text, out locationId))
+            {
+                MessageBox.Show("Please enter a valid LocationID.");
                 return;
             }
             int addQuantity = (int)numericUpDown1.Value;
@@ -940,21 +982,23 @@ namespace Inventory_System
                         conn.Open();
                         if (addQuantity > 0)
                         {
-                            string addQuery = "UPDATE Stock SET Quantity = Quantity + @AddQuantity WHERE ProductID = @ProductID";
+                            string addQuery = "UPDATE Stock SET Quantity = Quantity + @AddQuantity WHERE ProductID = @ProductID AND LocationID = @LocationID";
                             using (var cmd = new SqlCommand(addQuery, conn))
                             {
                                 cmd.Parameters.AddWithValue("@AddQuantity", addQuantity);
                                 cmd.Parameters.AddWithValue("@ProductID", productId);
+                                cmd.Parameters.AddWithValue("@LocationID", locationId);
                                 cmd.ExecuteNonQuery();
                             }
                         }
                         if (deleteQuantity > 0)
                         {
-                            string deleteQuery = "UPDATE Stock SET Quantity = Quantity - @DeleteQuantity WHERE ProductID = @ProductID AND Quantity >= @DeleteQuantity";
+                            string deleteQuery = "UPDATE Stock SET Quantity = Quantity - @DeleteQuantity WHERE ProductID = @ProductID AND LocationID = @LocationID AND Quantity >= @DeleteQuantity";
                             using (var cmd = new SqlCommand(deleteQuery, conn))
                             {
                                 cmd.Parameters.AddWithValue("@DeleteQuantity", deleteQuantity);
                                 cmd.Parameters.AddWithValue("@ProductID", productId);
+                                cmd.Parameters.AddWithValue("@LocationID", locationId);
                                 cmd.ExecuteNonQuery();
                             }
                         }
@@ -1232,6 +1276,18 @@ namespace Inventory_System
             {
                 MessageBox.Show($"Failed to delete location: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void label36_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form1 = new Form1();
+            form1.Show();
         }
     }
 }
